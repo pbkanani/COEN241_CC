@@ -1,0 +1,473 @@
++++++++++++++++++++++
+Docker CPU test
++++++++++++++++++++++
+
+******** BEGIN : test for max-prime = 10000 ********
+Test 1 for max-prime = 10000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 10000
+
+
+Test execution summary:
+    total time:                          9.1144s
+    total number of events:              10000
+    total time taken by event execution: 9.0358
+    per-request statistics:
+         min:                                  0.79ms
+         avg:                                  0.90ms
+         max:                                  4.89ms
+         approx.  95 percentile:               1.13ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   9.0358/0.00
+
+=================================================
+Test 2 for max-prime = 10000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 10000
+
+
+Test execution summary:
+    total time:                          9.6850s
+    total number of events:              10000
+    total time taken by event execution: 9.6026
+    per-request statistics:
+         min:                                  0.79ms
+         avg:                                  0.96ms
+         max:                                 11.65ms
+         approx.  95 percentile:               1.27ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   9.6026/0.00
+
+=================================================
+Test 3 for max-prime = 10000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+WARNING: Operation time (18446744073675653120.000000) is greater than maximal counted value, counting as 10000000000000.000000
+WARNING: Percentile statistics will be inaccurate
+Done.
+
+Maximum prime number checked in CPU test: 10000
+
+
+Test execution summary:
+    total time:                          10.0548s
+    total number of events:              10000
+    total time taken by event execution: 9.9646
+    per-request statistics:
+         min:                                  0.79ms
+         avg:                                  1.00ms
+         max:                            18446744073676.00ms
+         approx.  95 percentile:               1.37ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   9.9646/0.00
+
+=================================================
+Test 4 for max-prime = 10000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 10000
+
+
+Test execution summary:
+    total time:                          9.0191s
+    total number of events:              10000
+    total time taken by event execution: 8.9417
+    per-request statistics:
+         min:                                  0.79ms
+         avg:                                  0.89ms
+         max:                                  4.77ms
+         approx.  95 percentile:               1.07ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   8.9417/0.00
+
+=================================================
+Test 5 for max-prime = 10000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 10000
+
+
+Test execution summary:
+    total time:                          9.0951s
+    total number of events:              10000
+    total time taken by event execution: 9.0171
+    per-request statistics:
+         min:                                  0.79ms
+         avg:                                  0.90ms
+         max:                                  5.52ms
+         approx.  95 percentile:               1.13ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   9.0171/0.00
+
+=================================================
+******** END : test for max-prime = 10000 ********
++++++++++++++++++++++
+Docker CPU test
++++++++++++++++++++++
+
+******** BEGIN : test for max-prime = 20000 ********
+Test 1 for max-prime = 20000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          22.6574s
+    total number of events:              10000
+    total time taken by event execution: 22.5790
+    per-request statistics:
+         min:                                  2.02ms
+         avg:                                  2.26ms
+         max:                                 21.94ms
+         approx.  95 percentile:               2.60ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   22.5790/0.00
+
+=================================================
+Test 2 for max-prime = 20000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+WARNING: Operation time (18446744073678448640.000000) is greater than maximal counted value, counting as 10000000000000.000000
+WARNING: Percentile statistics will be inaccurate
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          22.5828s
+    total number of events:              10000
+    total time taken by event execution: 22.5060
+    per-request statistics:
+         min:                                  2.03ms
+         avg:                                  2.25ms
+         max:                            18446744073678.56ms
+         approx.  95 percentile:               2.62ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   22.5060/0.00
+
+=================================================
+Test 3 for max-prime = 20000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+WARNING: Operation time (18446744073678000128.000000) is greater than maximal counted value, counting as 10000000000000.000000
+WARNING: Percentile statistics will be inaccurate
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          22.4500s
+    total number of events:              10000
+    total time taken by event execution: 22.3739
+    per-request statistics:
+         min:                                  2.02ms
+         avg:                                  2.24ms
+         max:                            18446744073679.16ms
+         approx.  95 percentile:               2.58ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   22.3739/0.00
+
+=================================================
+Test 4 for max-prime = 20000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+WARNING: Operation time (18446744073681375232.000000) is greater than maximal counted value, counting as 10000000000000.000000
+WARNING: Percentile statistics will be inaccurate
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          23.0697s
+    total number of events:              10000
+    total time taken by event execution: 22.9933
+    per-request statistics:
+         min:                                  2.03ms
+         avg:                                  2.30ms
+         max:                            18446744073681.44ms
+         approx.  95 percentile:               2.71ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   22.9933/0.00
+
+=================================================
+Test 5 for max-prime = 20000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+WARNING: Operation time (18446744073677578240.000000) is greater than maximal counted value, counting as 10000000000000.000000
+WARNING: Percentile statistics will be inaccurate
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          23.0789s
+    total number of events:              10000
+    total time taken by event execution: 23.0008
+    per-request statistics:
+         min:                                  2.02ms
+         avg:                                  2.30ms
+         max:                            18446744073677.65ms
+         approx.  95 percentile:               2.78ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   23.0008/0.00
+
+=================================================
+******** END : test for max-prime = 20000 ********
++++++++++++++++++++++
+Docker CPU test
++++++++++++++++++++++
+
+******** BEGIN : test for max-prime = 50000 ********
+Test 1 for max-prime = 50000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+WARNING: Operation time (18446744073681510400.000000) is greater than maximal counted value, counting as 10000000000000.000000
+WARNING: Percentile statistics will be inaccurate
+Done.
+
+Maximum prime number checked in CPU test: 50000
+
+
+Test execution summary:
+    total time:                          76.7185s
+    total number of events:              10000
+    total time taken by event execution: 76.6435
+    per-request statistics:
+         min:                                  7.39ms
+         avg:                                  7.66ms
+         max:                            18446744073682.91ms
+         approx.  95 percentile:               8.20ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   76.6435/0.00
+
+=================================================
+Test 2 for max-prime = 50000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+WARNING: Operation time (18446744073683374080.000000) is greater than maximal counted value, counting as 10000000000000.000000
+WARNING: Percentile statistics will be inaccurate
+Done.
+
+Maximum prime number checked in CPU test: 50000
+
+
+Test execution summary:
+    total time:                          78.1920s
+    total number of events:              10000
+    total time taken by event execution: 78.1150
+    per-request statistics:
+         min:                                  7.12ms
+         avg:                                  7.81ms
+         max:                            18446744073683.49ms
+         approx.  95 percentile:               8.59ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   78.1150/0.00
+
+=================================================
+Test 3 for max-prime = 50000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+WARNING: Operation time (18446744073684064256.000000) is greater than maximal counted value, counting as 10000000000000.000000
+WARNING: Percentile statistics will be inaccurate
+Done.
+
+Maximum prime number checked in CPU test: 50000
+
+
+Test execution summary:
+    total time:                          78.5719s
+    total number of events:              10000
+    total time taken by event execution: 78.4942
+    per-request statistics:
+         min:                                  7.09ms
+         avg:                                  7.85ms
+         max:                            18446744073689.27ms
+         approx.  95 percentile:               8.98ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   78.4942/0.00
+
+=================================================
+Test 4 for max-prime = 50000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+WARNING: Operation time (18446744073685542912.000000) is greater than maximal counted value, counting as 10000000000000.000000
+WARNING: Percentile statistics will be inaccurate
+Done.
+
+Maximum prime number checked in CPU test: 50000
+
+
+Test execution summary:
+    total time:                          79.4365s
+    total number of events:              10000
+    total time taken by event execution: 79.3552
+    per-request statistics:
+         min:                                  7.26ms
+         avg:                                  7.94ms
+         max:                            18446744073685.64ms
+         approx.  95 percentile:               9.03ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   79.3552/0.00
+
+=================================================
+Test 5 for max-prime = 50000
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing CPU performance benchmark
+
+Threads started!
+WARNING: Operation time (18446744073676875776.000000) is greater than maximal counted value, counting as 10000000000000.000000
+WARNING: Percentile statistics will be inaccurate
+Done.
+
+Maximum prime number checked in CPU test: 50000
+
+
+Test execution summary:
+    total time:                          77.4922s
+    total number of events:              10000
+    total time taken by event execution: 77.4177
+    per-request statistics:
+         min:                                  7.10ms
+         avg:                                  7.74ms
+         max:                            18446744073681.83ms
+         approx.  95 percentile:               8.29ms
+
+Threads fairness:
+    events (avg/stddev):           10000.0000/0.00
+    execution time (avg/stddev):   77.4177/0.00
+
+=================================================
+******** END : test for max-prime = 50000 ********
