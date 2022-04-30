@@ -10,9 +10,9 @@ def handle(req):
                 "value": "100",
                 "short": True
             }],
-            "author_name": <FILL IN THE BLANK>,
+            "author_name": "Poonam",
             "author_icon": "",
-            "image_url": <FILL IN THE BLANK>
+            "image_url": "https://avatars.githubusercontent.com/u/92608195?s=400&v=4"
         },
         {
             "title": "About COEN 241",
